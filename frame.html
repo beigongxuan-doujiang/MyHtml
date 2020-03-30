@@ -4,29 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>框架</title>
+    <title>国内旅游</title>
 </head>
 <style>
     .header,
     .aside,
     .main,
     .footer {
-        background-color: pink;
-        border: 2px solid yellow;
+        background-color: red;
+        border: 1px solid yellow;
     }
 
-    .header{
-        margin-top: 100px;
-        margin-bottom: 50px;
-        margin-left: 20px;
-        margin-right: 30px;
-        padding-left: 20px;
-        padding-top: 50px;
-    }
+
 
     .header
     .footer{
-        height: 150px;
+        height: 100px;
     }
 
 
@@ -37,30 +30,28 @@
 
     .aside,
     .main {
-        height: 400px;
+        height: 500px;
     }
 
-    .absolute-div{
-        background-color: teal;
-        border: 1px solid yellow;
+    .float-box{
+        position: absolute;
+        top: 300px;
+        left: 500px;
         width: 200px;
         height: 200px;
-        position: absolute;
-        top: 200px;
-        left: 500px;
+        background-color: yellow;
+
     }
 
-    body{
-        background-color: red;
-    }
+
 </style>
 
 <body>
     <header class="header">header</header>
     <aside class="aside">aside</aside>
-    <section class="section">section</section>
+    <section class="main">section</section>
     <footer class="footer">footer</footer>
-    <div class="absolute-div">absolute position</div>
+    <div class="float-box">box</div>
 </body>
 
 </html>
